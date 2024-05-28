@@ -17,7 +17,7 @@ spec:
         "kubernetes.io/os": windows
       containers:
       - name: dotnetcorewebapi
-        image: ACR_NAME.azurecr.io/dotnetcorewebapi:v1.0
+        image: docker.io/hishobhit76/dotnetcorewebapi-linux:v1.0
         resources:
           limits:
             cpu: 1
