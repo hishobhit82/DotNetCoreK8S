@@ -1,4 +1,4 @@
-FROM FROM mcr.microsoft.com/dotnet/sdk:7.0-nanoserver-ltsc2022 AS build
+FROM mcr.microsoft.com/dotnet/sdk:7.0-nanoserver-ltsc2022 AS build
 
 WORKDIR /source
 
