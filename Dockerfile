@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM FROM mcr.microsoft.com/dotnet/sdk:7.0-nanoserver-ltsc2022 AS build
 
 WORKDIR /source
 
@@ -15,7 +15,7 @@ RUN dotnet build -c Release
 
 RUN dotnet publish -c Release -o /publish
 
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+FROM mcr.microsoft.com/dotnet/aspnet:7.0-nanoserver-ltsc2022
 WORKDIR /app
 ENV PORT 80
 EXPOSE 80
