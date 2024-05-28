@@ -6,7 +6,7 @@ metadata:
     environment: dev
     app: dotnetcorewebapi
 spec:
-  replicas: 3
+  replicas: 1
   template:
     metadata:
       name: dotnetcorewebapi
@@ -33,7 +33,6 @@ kind: Service
 metadata:
   name: dotnetcorewebapi-service
 spec:
-  type: LoadBalancer
   ports:
   - protocol: TCP
     port: 80
