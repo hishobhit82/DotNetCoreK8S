@@ -14,7 +14,7 @@ spec:
         app: dotnetcorewebapi
     spec:
       nodeSelector:
-        "kubernetes.io/os": windows
+        "kubernetes.io/os": linux
       containers:
       - name: dotnetcorewebapi
         image: docker.io/hishobhit76/dotnetcorewebapi-linux:v1.0
