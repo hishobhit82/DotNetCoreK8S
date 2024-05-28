@@ -6,8 +6,8 @@ namespace PersonsFactory
     class Program
     {
         private static readonly string? PersonKey = "Person";
-        private static readonly int[] Ages = [32, 45, 52, 28, 41, 30];
-        private static readonly string[] Cities = ["Jaipur", "Gurgaon", "New Delhi", "Noida", "Udaipur", "Mumbai", "Pune", "Navi Mumbai", "Bengaluru", "Mysore", "Cochin", "Nagpur", "Thiruvananthpuram", "Chennai", "Hyderabad", "Ranchi", "Patna"];
+        private static readonly int[] Ages = { 32, 45, 52, 28, 41, 30 };
+        private static readonly string[] Cities = { "Jaipur", "Gurgaon", "New Delhi", "Noida", "Udaipur", "Mumbai", "Pune", "Navi Mumbai", "Bengaluru", "Mysore", "Cochin", "Nagpur", "Thiruvananthpuram", "Chennai", "Hyderabad", "Ranchi", "Patna" };
         private static readonly Dictionary<string, List<string>> Qualities = new() 
         {
             { "Behavior", new List<string> () { "Wise", "MoneyMinded", "Cunning", "Shrewd", "Social", "Zealous", "Humerous", "Verbose" } },

@@ -11,7 +11,7 @@
         }
         public ServiceResult(string exceptionMessage)
         {
-            Result = [];
+            Result = Array.Empty<T>();
             Exception = exceptionMessage;
         }
 
