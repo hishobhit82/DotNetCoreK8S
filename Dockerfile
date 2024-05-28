@@ -4,6 +4,7 @@ WORKDIR /source
 
 COPY ./MyLocalServiceCore/MyLocalServiceCore.csproj ./MyLocalServiceCore/MyLocalServiceCore.csproj
 COPY ./MyLocalEntities/MyLocalEntities.csproj ./MyLocalEntities/MyLocalEntities.csproj
+COPY ./PeronsFactory/PersonsFactory.csproj ./PeronsFactory/PersonsFactory.csproj
 
 COPY ./MyLocalServiceCore.sln .
 
